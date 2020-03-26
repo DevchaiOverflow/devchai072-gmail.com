@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     margin: 0,
     padding: 0,
-    top: 100,
+    // top: 500,
     bottom: 0,
     width: '100%',
     position: 'absolute',
@@ -42,7 +42,7 @@ const BottomPanel = props => {
   return (
     // <div className={classes.root}>
     <SplitPane split="horizontal" minSize={5} maxSize={865} defaultSize={300} primary="second" className={classes.root}>
-      <Grid />
+      <div style={{ position: 'absolute', zIndex: -50 }}/>
       <Paper style={{ height: '100%', width: '100%' }}>
 
         <TableContainer component={Paper}>
