@@ -33,22 +33,22 @@ const MapManager = props => {
                 zoom: 13
             })
 
-            var basemapToggle = new BasemapToggle({
-                view: view,
-                nextBasemap: "satellite"
-            })
-            view.ui.add(basemapToggle, "bottom-right")
+            // var basemapToggle = new BasemapToggle({
+            //     view: view,
+            //     nextBasemap: "satellite"
+            // })
+            // view.ui.add(basemapToggle, "bottom-right")
 
-            var basemapGallery = new BasemapGallery({
-                view: view,
-                source: {
-                  portal: {
-                    url: "https://www.arcgis.com",
-                    useVectorBasemaps: true  // Load vector tile basemaps
-                  }
-                }
-            })
-            view.ui.add(basemapGallery, "bottom-right")
+            // var basemapGallery = new BasemapGallery({
+            //     view: view,
+            //     source: {
+            //       portal: {
+            //         url: "https://www.arcgis.com",
+            //         useVectorBasemaps: true  // Load vector tile basemaps
+            //       }
+            //     }
+            // })
+            // view.ui.add(basemapGallery, "bottom-right")
         })
 
     }
